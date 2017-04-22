@@ -1,38 +1,26 @@
 var data = [
-  // { "name" : "Korean", "parent":"null", "value":"null"},
-    { "name" : "Berries & Fruiting Bushes", "parent":"Korean", "value":"null", "image":"#i1"},
-      { "name" : "Chokeberries (Aronia)", "parent":"Berries & Fruiting Bushes", "value":28, "image":"#i1" },
-      { "name" : "Blackberries", "parent":"Berries & Fruiting Bushes", "value":4, "image":"#i2" },
-      { "name" : "Blueberries", "parent":"Berries & Fruiting Bushes", "value":28, "image":"#i3" },
-      { "name" : "Bush Cherries", "parent":"Berries & Fruiting Bushes", "value":2, "image":"#i4" },
-      { "name" : "Autumn Magic", "parent":"Chokeberries (Aronia)", "value":55, "image":"#i5" },
-      { "name" : "Nero", "parent":"Chokeberries (Aronia)", "value":45, "image":"#i6" },
-      { "name" : "Rolling River", "parent":"Chokeberries (Aronia)", "value":5, "image":"#i5" },
-      { "name" : "Viking", "parent":"Chokeberries (Aronia)", "value":5, "image":"#i5" },
-      { "name" : "Apache", "parent":"Blackberries", "value":30, "image":"#i2" },
-      { "name" : "Black Satin", "parent":"Blackberries", "value":50, "image":"#i2" },
-      { "name" : "Boysenberry", "parent":"Blackberries", "value":20, "image":"#i2" },
-      { "name" : "Cherokee", "parent":"Blackberries", "value":20, "image":"#i2" },
-      { "name" : "Arien", "parent":"Blueberries", "value":75, "image":"#i3" },
-      { "name" : "Berkeley", "parent":"Blueberries", "value":25, "image":"#i3" },
-      { "name" : "Blue Gold", "parent":"Blueberries", "value":75, "image":"#i3" },
-      { "name" : "Duke", "parent":"Blueberries", "value":25, "image":"#i3" },
-      { "name" : "Black Chokeberry", "parent":"Bush Cherries", "value":25, "image":"#i4" },
-      { "name" : "Jan (Prunus japonica x jacquemontii)", "parent":"Bush Cherries", "value":6, "image":"#i4"},
-      { "name" : "Korean Bush Cherry (Prunus japonica)", "parent":"Bush Cherries", "value":18, "image":"#i4" },
-      { "name" : "Sand Cherry-Prunus Besseyi", "parent":"Bush Cherries", "value":46, "image":"#i4" },
-      ];
-
-// var data2 = [
-//   { "name" : "Japanese", "parent":"null", "value":"null"},
-//     { "name" : "Berries & Fruiting Bushes", "parent":"Japanese", "value":"null", "image":"#i1"},
-//       { "name" : "Chokeberries (Aronia)", "parent":"Berries & Fruiting Bushes", "value":28, "image":"#i1" },
-//       { "name" : "Blackberries", "parent":"Berries & Fruiting Bushes", "value":4, "image":"#i2" },
-//       { "name" : "Blueberries", "parent":"Berries & Fruiting Bushes", "value":28, "image":"#i3" },
-//       { "name" : "Bush Cherries", "parent":"Berries & Fruiting Bushes", "value":2, "image":"#i4" },
-//       ];
-
-
+  { "name" : "Berries & Fruiting Bushes", "parent":"Korean", "value":"null", "image":"#i6"},
+    { "name" : "Chokeberries", "parent":"Berries & Fruiting Bushes", "value":28, "image":"#i1" },
+    { "name" : "Blackberries", "parent":"Berries & Fruiting Bushes", "value":4, "image":"#i2" },
+    { "name" : "Blueberries", "parent":"Berries & Fruiting Bushes", "value":28, "image":"#i3" },
+    { "name" : "Bush Cherries", "parent":"Berries & Fruiting Bushes", "value":2, "image":"#i4" },
+    { "name" : "Autumn Magic", "parent":"Chokeberries", "value":55, "image":"#i5" },
+    { "name" : "Nero", "parent":"Chokeberries", "value":45, "image":"#i5" },
+    { "name" : "Rolling River", "parent":"Chokeberries", "value":5, "image":"#i5" },
+    { "name" : "Viking", "parent":"Chokeberries", "value":5, "image":"#i5" },
+    { "name" : "Apache", "parent":"Blackberries", "value":30, "image":"#i2" },
+    { "name" : "Black Satin", "parent":"Blackberries", "value":50, "image":"#i2" },
+    { "name" : "Boysenberry", "parent":"Blackberries", "value":20, "image":"#i2" },
+    { "name" : "Cherokee", "parent":"Blackberries", "value":20, "image":"#i2" },
+    { "name" : "Arien", "parent":"Blueberries", "value":75, "image":"#i3" },
+    { "name" : "Berkeley", "parent":"Blueberries", "value":25, "image":"#i3" },
+    { "name" : "Blue Gold", "parent":"Blueberries", "value":75, "image":"#i3" },
+    { "name" : "Duke", "parent":"Blueberries", "value":25, "image":"#i3" },
+    { "name" : "Black Chokeberry", "parent":"Bush Cherries", "value":25, "image":"#i4" },
+    { "name" : "Jan", "parent":"Bush Cherries", "value":6, "image":"#i4"},
+    { "name" : "Korean Bush Cherry", "parent":"Bush Cherries", "value":18, "image":"#i4" },
+    { "name" : "Sand Cherry", "parent":"Bush Cherries", "value":46, "image":"#i4" },
+  ];
 
 var dataMap = data.reduce(function(map, node) {
  map[node.name] = node;
